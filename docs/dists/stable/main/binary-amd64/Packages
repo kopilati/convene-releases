@@ -1,0 +1,20 @@
+Package: convene
+Version: 0.4.0
+Architecture: amd64
+Maintainer: Rune Funch Søltoft
+Installed-Size: 36691
+Depends: libc6 (>= 2.43)
+Filename: pool/main/convene_0.4.0_amd64.deb
+Size: 10147492
+MD5sum: 40deb6ba7b8a3f0cce13fac288c9d9ba
+SHA1: 04fc4a0d462126745ee1acbb4fad99a889be5f5a
+SHA256: 901b50f99d5e157797655ada9cec92b32772cf840b50adef44deb7dfbe6a8da6
+Section: net
+Priority: optional
+Homepage: https://github.com/kopilati/convene
+Description: The carried macOS floor over the machine-built convene crates: a pure-Rust egui
+ app composing the same seat the iPhone floor exports.
+ A private group chat over a mix-net swarm: sealed records, pigeonholes nobody
+ in the middle can read, one identity on many devices. The desktop floor, built
+ from DCI specs by nord.
+

@@ -1,0 +1,33 @@
+Origin: convene
+Label: convene
+Suite: stable
+Codename: stable
+Architectures: amd64 arm64
+Components: main
+Description: Convene, the desktop floor
+Date: Sun, 15 Nov 2026 21:53:55 +0000
+Date: Sun, 15 Nov 2026 21:53:55 +0000
+MD5Sum:
+ 86fea4a32a8c65cde9d397b28ace7124              222 Release
+ a0d1848ed91af0d4700b24f9eaed014e              762 main/binary-amd64/Packages
+ af578a1148b5a6923e9690d046f166a7              552 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-arm64/Packages
+ 923ad111c6c7767bcd840c30e630e6da               29 main/binary-arm64/Packages.gz
+SHA1:
+ eb202ea6d7c950157dac348a785a4896b55b0f8a              222 Release
+ f7568740d5177e337fb961db301467ecd0a994e8              762 main/binary-amd64/Packages
+ b2f9bcdb8cbd592bf55acdb25557e5ada2c0ff17              552 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-arm64/Packages
+ 55cda6bab2ae0597046114a4df5f6fa7b5fc0c2c               29 main/binary-arm64/Packages.gz
+SHA256:
+ ee39af7b0641b761df231227111a10440846615699e963d973ecc4f46f4cac02              222 Release
+ 87c27dbc7e76867f8a9ef1fbd0567001b9ea1ee4b142e628c28be96c28da992e              762 main/binary-amd64/Packages
+ 51c368f21cb178d7e3a58e9be07b8f23ec66243fd03386d8b2120985886bdb8c              552 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-arm64/Packages
+ 2485db7b8d2d8a75de776d727d2c82cfe6e3e6d579c3939e2775f15df1132528               29 main/binary-arm64/Packages.gz
+SHA512:
+ cf26732dbc06da65928a31d062f8dc4bee8fe0bf0f87aac0f81e17430346f46ab3571a409fb4a1b63ba7634d2608804f5d2fb024a2acf8bdcadfa81c6af758d1              222 Release
+ 9afc7931dbfc2c520cea66834da88e06ce989b112f48a39dc0b3b0e4a8102b41e1d778f5f0f75fe10811658b7734ee98cf5c01f9cf724f69f9fa26b94bf15d55              762 main/binary-amd64/Packages
+ 6346b1abcb69a4063749f3ffc428ef926cbfaf4e976408cf55272228560a17904105e4a696df9868f7cef1e8def3e4d3090470dd7b5306759847d57fbab3a360              552 main/binary-amd64/Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-arm64/Packages
+ e90aa84526b2e21255050c18cfcb5f28e2082c7331ccbb1f4df6d9e6bbffa2c6de0d7530a87fcc16bf0adcdb16c79b6dccd581b5654b69d5188e518dc8ad13f5               29 main/binary-arm64/Packages.gz

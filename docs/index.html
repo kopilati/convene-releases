@@ -1,3 +1,6 @@
 <!doctype html><title>convene apt repository</title>
-<p>The apt repository for Convene appears here with the first release. Until then, see
-<a href="https://github.com/kopilati/convene-releases">kopilati/convene-releases</a>.</p>
+<pre>
+curl -fsSL https://kopilati.github.io/convene-releases/convene.gpg | sudo tee /usr/share/keyrings/convene.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/convene.gpg] https://kopilati.github.io/convene-releases stable main" | sudo tee /etc/apt/sources.list.d/convene.list
+sudo apt update && sudo apt install convene
+</pre>
