@@ -1,9 +1,9 @@
 # The Homebrew cask, rendered by release.yml into kopilati/convene-releases as Casks/convene.rb
 # — tapped with `brew tap kopilati/releases https://github.com/kopilati/convene-releases`.
-# 0.4.0, 9de38a061646728049c279854bebedd23e2c276af9969aaf448539834bb6f7ce and a5eb6896807a8d10e85a04cfa6d63aa620d0071c9514e16cdc8b3fa66e129001 are filled from the release's zips.
+# The version and the two checksums below are filled from the release's zips.
 cask "convene" do
-  version "0.4.0"
-  sha256 arm: "9de38a061646728049c279854bebedd23e2c276af9969aaf448539834bb6f7ce", intel: "a5eb6896807a8d10e85a04cfa6d63aa620d0071c9514e16cdc8b3fa66e129001"
+  version "0.5.0"
+  sha256 arm: "ffc5974694a6e1caa13fe3ab022a3e6022d73b60a35a20011defc5680760fd63", intel: "c74b9c6d66a79cbf36650fbb175bd40c515db0ebaf48ff0162696cb1f3160964"
 
   url "https://github.com/kopilati/convene/releases/download/v#{version}/Convene-#{version}-macos-#{arch}.zip",
       verified: "github.com/kopilati/convene/"

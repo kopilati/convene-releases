@@ -1,14 +1,14 @@
 Package: convene
-Version: 0.4.0
+Version: 0.5.0
 Architecture: amd64
 Maintainer: Rune Funch Søltoft
 Installed-Size: 36691
 Depends: libc6 (>= 2.43)
-Filename: pool/main/convene_0.4.0_amd64.deb
-Size: 10147492
-MD5sum: 40deb6ba7b8a3f0cce13fac288c9d9ba
-SHA1: 04fc4a0d462126745ee1acbb4fad99a889be5f5a
-SHA256: 901b50f99d5e157797655ada9cec92b32772cf840b50adef44deb7dfbe6a8da6
+Filename: pool/main/convene_0.5.0_amd64.deb
+Size: 10147132
+MD5sum: 874ea576f81df0372a01ca75f465b25d
+SHA1: 406af1ea482103950e6450e355abe3f86a19e96e
+SHA256: 63fbfdcb43199d844011a54ae84dc003cc706b1db67c3d18c2d113be6036ddf4
 Section: net
 Priority: optional
 Homepage: https://github.com/kopilati/convene
