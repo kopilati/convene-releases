@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>convene for Windows</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<main class="page">
+
+  <header class="hero">
+    <div class="brand">
+      <svg viewBox="100 100 824 824" role="img" aria-label="The convene icon">
+        <defs>
+          <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1EAE0"/><stop offset="1" stop-color="#E8DFD2"/></linearGradient>
+          <linearGradient id="imk" gradientUnits="userSpaceOnUse" x1="420" y1="330" x2="700" y2="760"><stop offset="0.35" stop-color="#D4704C"/><stop offset="1" stop-color="#E0A27A"/></linearGradient>
+          <mask id="im" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+            <path d="M660.7 371.5 A192 192 0 1 0 673.3 612.9" fill="none" stroke="#fff" stroke-width="136" stroke-linecap="round"/>
+            <path d="M402.0 700.9 L284.0 718.2 L317.1 616.0 Z" fill="#fff" stroke="#fff" stroke-width="30" stroke-linejoin="round"/>
+          </mask>
+        </defs>
+        <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#ibg)"/>
+        <rect x="114" y="114" width="796" height="796" rx="172" fill="none" stroke="#D4704C" stroke-width="28"/>
+        <rect width="1024" height="1024" fill="url(#imk)" mask="url(#im)"/>
+      </svg>
+      <b><a href="../">convene</a></b>
+      <span class="tag">Test brief · Windows</span>
+    </div>
+    <h1>Group chat that <em>nobody in the middle</em> can read.</h1>
+    <p class="lede">Thanks for agreeing to try convene. On Windows it is one file: you download it and run it, with nothing to install. This page takes you from that download to your first hello in about five minutes.</p>
+  </header>
+
+  <section aria-labelledby="why">
+    <h2 id="why">Why bother?</h2>
+    <p class="sub">The questions you were about to ask.</p>
+    <div class="chat">
+      <p class="me">Why another chat app?</p>
+      <p class="them">Most chat apps sit in the middle of your conversations. Convene doesn't. What you write is sealed on your PC, and only the people in the chat can open it. Not me, not a company, not whoever runs the network.</p>
+
+      <p class="me">Do I need an account?</p>
+      <p class="them">No account, no phone number, no email. You are a card: a link you send, or a code someone scans. That's all anyone needs to start talking with you, and it says nothing else about you.</p>
+
+      <p class="me">Does it install anything?</p>
+      <p class="them">No. It's a single program file. It keeps your card and your chats in one folder of its own, and removing convene is deleting the file and that folder.</p>
+
+      <p class="me">And if someone opens my laptop?</p>
+      <p class="them">Give convene a password when you start and it asks for it every time it opens, and again when you've been away from it.</p>
+
+      <p class="me">So what's the catch?</p>
+      <p class="them">It's early, and Windows is newer than the Mac. Nobody has vouched for the file to Microsoft yet, so Windows will ask whether you're sure. Some things will be rough, and finding them is exactly why you're here.</p>
+      <span class="reach">Received</span>
+    </div>
+  </section>
+
+  <section aria-labelledby="setup">
+    <h2 id="setup">Getting set up</h2>
+    <p class="sub">Five steps. Only the second is fiddly, and you do it once.</p>
+    <ol class="steps">
+      <li>
+        <div class="step">
+          <h3>Download it</h3>
+          <p>One file, for 64-bit Windows 10 and 11. Keep it anywhere you like: the Desktop is fine.</p>
+          <a class="get" href="https://github.com/kopilati/convene-releases/releases/download/v0.7.0/Convene-0.7.0-windows-x86_64.exe">Download convene 0.7.0 for Windows</a>
+          <p class="aside">Your browser may say the file isn't commonly downloaded. Choose <span class="ui">Keep</span>.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Tell Windows it's fine</h3>
+          <p>Double-click the file. Windows shows a blue box, <em>Windows protected your PC</em>. That's expected: this test build isn't signed with a certificate Microsoft knows yet. Then:</p>
+          <ul class="clicks">
+            <li>More info</li><li>Run anyway</li>
+          </ul>
+          <p>If Windows Firewall asks whether convene may use the network, choose <span class="ui">Allow</span>. Convene talks straight to your friends' devices, and that is what the question is about.</p>
+          <p class="aside">You do this once for each version you download.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Say who you are</h3>
+          <p>Type your name, the one your friends will see. A password is optional; add one if you'd like convene to ask before it opens. Press <span class="ui">Get started</span>.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Start your first chat, with me</h3>
+          <p>Press the pencil at the top of the sidebar, paste my card link, the one I sent you along with this page, and press <span class="ui">Start</span>. Then say hello.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Hand out your card</h3>
+          <p>Click your name at the bottom of the sidebar. That's your card. <span class="ui">Copy link</span> and send it to another tester, or let them scan the code. Now they can start a chat with you.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+
+  <section aria-labelledby="try">
+    <h2 id="try">Things to try</h2>
+    <p class="sub">In no particular order. Poke at whatever looks interesting.</p>
+    <ul class="try">
+      <li><b>Reply to one message</b><span>Right-click it and choose Reply. Your answer carries a quote of what it answers.</span></li>
+      <li><b>React</b><span>Right-click a message and pick an emoji. Click it again to take it off.</span></li>
+      <li><b>Take one back</b><span>Right-click your own message while it still says Queued. Once someone has it, it stays.</span></li>
+      <li><b>Send a picture</b><span>Copy a picture, press the plus beside the message box and choose Paste Picture. Choosing a file from disk doesn't work on Windows yet.</span></li>
+      <li><b>Make it a group</b><span>Open Details at the top of a chat and choose Add people. The chat says in plain words who was let in.</span></li>
+      <li><b>Give someone a face</b><span>Right-click a face in the row under the search and choose Picture. On Windows you type the path of the picture file.</span></li>
+      <li><b>Walk away</b><span>If you gave convene a password, leave for a few minutes and come back. It should ask again.</span></li>
+      <li><b>Look around Settings</b><span>Press <kbd>Ctrl</kbd> <kbd>,</kbd> for sound and your devices.</span></li>
+    </ul>
+    <dl class="words">
+      <dt>Queued</dt><dd>Your message is on its way. The other person's computer may be asleep.</dd>
+      <dt>Received</dt><dd>It arrived. They have it.</dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="keep">
+    <h2 id="keep">Keeping it, updating it, removing it</h2>
+    <dl class="words">
+      <dt>Where it lives</dt><dd>The program is the file you downloaded. Your card and chats are in <code class="file">%APPDATA%\nordhavn\convene</code>; paste that into File Explorer's address bar to see it.</dd>
+      <dt>A new version</dt><dd>Download the new file from this page and use it in place of the old one. Your card and chats stay.</dd>
+      <dt>Removing it</dt><dd>Delete the file. Delete the folder above as well and your card and chats on this PC are gone with it.</dd>
+      <dt>Checking it</dt><dd>The <a href="https://github.com/kopilati/convene-releases/releases/tag/v0.7.0">release</a> carries a <code class="file">.sha256</code> beside the file. In PowerShell, <code class="file">Get-FileHash Convene-0.7.0-windows-x86_64.exe</code> should print the same sum.</dd>
+    </dl>
+  </section>
+
+  <section class="tell" aria-labelledby="tell">
+    <h2 id="tell">What I'd love to hear</h2>
+    <p>Tell me in our convene chat, as it happens. Small things count. A screenshot helps.</p>
+    <ul>
+      <li>Anything that made you stop and think "huh?"</li>
+      <li>A message that was slow, or never turned to Received.</li>
+      <li>Anything that looks or behaves as if it was made for a Mac.</li>
+      <li>Something you expected to be able to do, and couldn't.</li>
+    </ul>
+    <p>If convene itself won't open, you know where to find me.</p>
+    <p class="sign">Thank you. Rune</p>
+  </section>
+
+</main>
+<script src="site.js"></script>
+</body>
+</html>

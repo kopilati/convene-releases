@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>convene for the Mac</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<main class="page">
+
+  <header class="hero">
+    <div class="brand">
+      <svg viewBox="100 100 824 824" role="img" aria-label="The convene icon">
+        <defs>
+          <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1EAE0"/><stop offset="1" stop-color="#E8DFD2"/></linearGradient>
+          <linearGradient id="imk" gradientUnits="userSpaceOnUse" x1="420" y1="330" x2="700" y2="760"><stop offset="0.35" stop-color="#D4704C"/><stop offset="1" stop-color="#E0A27A"/></linearGradient>
+          <mask id="im" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+            <path d="M660.7 371.5 A192 192 0 1 0 673.3 612.9" fill="none" stroke="#fff" stroke-width="136" stroke-linecap="round"/>
+            <path d="M402.0 700.9 L284.0 718.2 L317.1 616.0 Z" fill="#fff" stroke="#fff" stroke-width="30" stroke-linejoin="round"/>
+          </mask>
+        </defs>
+        <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#ibg)"/>
+        <rect x="114" y="114" width="796" height="796" rx="172" fill="none" stroke="#D4704C" stroke-width="28"/>
+        <rect width="1024" height="1024" fill="url(#imk)" mask="url(#im)"/>
+      </svg>
+      <b><a href="../">convene</a></b>
+      <span class="tag">Test brief · Mac</span>
+    </div>
+    <h1>Group chat that <em>nobody in the middle</em> can read.</h1>
+    <p class="lede">Thanks for agreeing to try convene. This page tells you why it might be worth a spot in your Dock, and how to get from nothing to your first hello in about ten minutes.</p>
+  </header>
+
+  <section aria-labelledby="why">
+    <h2 id="why">Why bother?</h2>
+    <p class="sub">The questions you were about to ask.</p>
+    <div class="chat">
+      <p class="me">Why another chat app?</p>
+      <p class="them">Most chat apps sit in the middle of your conversations. Convene doesn't. What you write is sealed on your Mac, and only the people in the chat can open it. Not me, not a company, not whoever runs the network.</p>
+
+      <p class="me">Do I need an account?</p>
+      <p class="them">No account, no phone number, no email. You are a card: a link you send, or a code someone scans. That's all anyone needs to start talking with you, and it says nothing else about you.</p>
+
+      <p class="me">What about the pictures I give people?</p>
+      <p class="them">They stay on your Mac. Give Sofie a silly picture and you're the only one who ever sees it.</p>
+
+      <p class="me">And if someone opens my laptop?</p>
+      <p class="them">Convene locks itself when you've been away and asks for Touch ID or your password before it shows a word.</p>
+
+      <p class="me">So what's the catch?</p>
+      <p class="them">It's early. Some things will be rough, and finding them is exactly why you're here. The Mac is where it is furthest along; friends on <a href="windows.html">Windows</a> and <a href="linux.html">Linux</a> can join you from their own briefs.</p>
+      <span class="reach">Received</span>
+    </div>
+  </section>
+
+  <section aria-labelledby="setup">
+    <h2 id="setup">Getting set up</h2>
+    <p class="sub">Five steps. Only the first two are fiddly, and you do them once.</p>
+    <ol class="steps">
+      <li>
+        <div class="step">
+          <h3>Install it</h3>
+          <p>Convene installs through Homebrew, a free tool that puts apps on your Mac. If you've never heard of it, <a href="https://brew.sh">set it up at brew.sh</a> first. Then open the Terminal app and paste these three lines, one at a time, pressing Return after each. The first tells Homebrew where convene lives, the second says you trust that place, the third installs it.</p>
+          <div class="cmd"><code id="c1">brew tap kopilati/releases https://github.com/kopilati/convene-releases</code><button type="button" data-copy="c1">Copy</button></div>
+          <div class="cmd"><code id="c3">brew trust --tap kopilati/releases</code><button type="button" data-copy="c3">Copy</button></div>
+          <div class="cmd"><code id="c2">brew install --cask convene</code><button type="button" data-copy="c2">Copy</button></div>
+          <p class="aside">No Homebrew? Download the zip for <a href="https://github.com/kopilati/convene-releases/releases/download/v0.7.0/Convene-0.7.0-macos-arm64.zip">Apple silicon</a> or <a href="https://github.com/kopilati/convene-releases/releases/download/v0.7.0/Convene-0.7.0-macos-x86_64.zip">Intel</a>, unzip it and drag Convene into Applications. This is version 0.7.0, for macOS 12 and later.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Tell your Mac it's fine</h3>
+          <p>The first time you open Convene, macOS says it could not verify the app. That's expected: this test build isn't registered with Apple yet. Click <span class="ui">Done</span>, then:</p>
+          <ul class="clicks">
+            <li>System Settings</li><li>Privacy &amp; Security</li><li>scroll to Security</li><li>Open Anyway</li><li>Open</li>
+          </ul>
+          <p class="aside">You do this once. After that it opens like any other app.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Say who you are</h3>
+          <p>Type your name, the one your friends will see. A password is optional; add one if you'd like Convene to ask before it opens. Press <span class="ui">Get started</span>.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Start your first chat, with me</h3>
+          <p>Press the pencil at the top of the sidebar, paste my card link, the one I sent you along with this page, and press <span class="ui">Start</span>. Then say hello.</p>
+        </div>
+      </li>
+      <li>
+        <div class="step">
+          <h3>Hand out your card</h3>
+          <p>Click your name at the bottom of the sidebar. That's your card. <span class="ui">Copy link</span> and send it to another tester, or let them scan the code. Now they can start a chat with you.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+
+  <section aria-labelledby="try">
+    <h2 id="try">Things to try</h2>
+    <p class="sub">In no particular order. Poke at whatever looks interesting.</p>
+    <ul class="try">
+      <li><b>Reply to one message</b><span>Right-click it and choose Reply. Your answer carries a quote of what it answers.</span></li>
+      <li><b>React</b><span>Right-click a message and pick an emoji. Click it again to take it off.</span></li>
+      <li><b>Take one back</b><span>Right-click your own message while it still says Queued. Once someone has it, it stays.</span></li>
+      <li><b>Send a picture or a video</b><span>The plus beside the message box. Pasting a picture works too.</span></li>
+      <li><b>Make it a group</b><span>Open Details at the top of a chat and choose Add people. The chat says in plain words who was let in.</span></li>
+      <li><b>Give someone a face</b><span>Right-click a face in the row under the search and choose Picture.</span></li>
+      <li><b>Walk away</b><span>Leave for a few minutes and come back. Convene should be locked.</span></li>
+      <li><b>Look around Settings</b><span>Press <kbd>⌘</kbd> <kbd>,</kbd> for sound, the lock and your devices.</span></li>
+    </ul>
+    <dl class="words">
+      <dt>Queued</dt><dd>Your message is on its way. The other person's computer may be asleep.</dd>
+      <dt>Received</dt><dd>It arrived. They have it.</dd>
+    </dl>
+  </section>
+
+  <section class="tell" aria-labelledby="tell">
+    <h2 id="tell">What I'd love to hear</h2>
+    <p>Tell me in our convene chat, as it happens. Small things count. A screenshot helps.</p>
+    <ul>
+      <li>Anything that made you stop and think "huh?"</li>
+      <li>A message that was slow, or never turned to Received.</li>
+      <li>Words on screen that didn't make sense.</li>
+      <li>Something you expected to be able to do, and couldn't.</li>
+    </ul>
+    <p>If Convene itself won't open, you know where to find me.</p>
+    <p class="sign">Thank you. Rune</p>
+  </section>
+
+</main>
+<script src="site.js"></script>
+</body>
+</html>
