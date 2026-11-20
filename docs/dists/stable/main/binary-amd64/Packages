@@ -1,20 +1,20 @@
 Package: convene
-Version: 0.5.0
+Version: 0.7.1
 Architecture: amd64
 Maintainer: Rune Funch Søltoft
-Installed-Size: 36691
-Depends: libc6 (>= 2.43)
-Filename: pool/main/convene_0.5.0_amd64.deb
-Size: 10147132
-MD5sum: 874ea576f81df0372a01ca75f465b25d
-SHA1: 406af1ea482103950e6450e355abe3f86a19e96e
-SHA256: 63fbfdcb43199d844011a54ae84dc003cc706b1db67c3d18c2d113be6036ddf4
+Installed-Size: 41436
+Depends: libc6 (>= 2.31)
+Recommends: libxkbcommon0, libegl1, libgl1
+Filename: pool/main/convene_0.7.1_amd64.deb
+Size: 11455072
+MD5sum: 1b01821830828235d3717f35944d148d
+SHA1: 32955d0ab999a585db441b1aa620995e87e5ac0a
+SHA256: f654c32041989b86a3387bb2df72ed01777eea39ac305ca8327bfc54d6b7208e
 Section: net
 Priority: optional
-Homepage: https://github.com/kopilati/convene
-Description: The carried macOS floor over the machine-built convene crates: a pure-Rust egui
- app composing the same seat the iPhone floor exports.
- A private group chat over a mix-net swarm: sealed records, pigeonholes nobody
- in the middle can read, one identity on many devices. The desktop floor, built
- from DCI specs by nord.
+Homepage: https://kopilati.github.io/convene-releases/
+Description: Convene, a group chat nobody in the middle can read
+ A private group chat with no account and no server that reads anything: what
+ is written is sealed on the device, and only the people in the chat can open
+ it. This is the desktop app, a peer on Aegis.
 
