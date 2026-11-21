@@ -8,36 +8,36 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Convene, the desktop floor
-Date: Fri, 20 Nov 2026 21:40:50 +0000
+Date: Sat, 21 Nov 2026 18:41:30 +0000
 MD5Sum:
- ab3ae5e02a8edf1b3d755da18a61b25b              750 main/binary-amd64/Packages
- ebb6908a3b7251219e91f147a282f2c7              528 main/binary-amd64/Packages.gz
+ 057f3ea1c160800ee9639bbb9499f476              750 main/binary-amd64/Packages
+ abfb0baafef31a578679c0a62b712065              526 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-arm64/Packages
  4a4dd3598707603b3f76a2378a4504aa               20 main/binary-arm64/Packages.gz
 SHA1:
- 5e5669d0012b8d3f1ae1f6c86c26a88eaffa86ca              750 main/binary-amd64/Packages
- 8a432d160ef9c10875f3d2f83725d5fdb1b93e3a              528 main/binary-amd64/Packages.gz
+ c65476806d023cd2d6ff66b19d05ab4acfe8474c              750 main/binary-amd64/Packages
+ 606cc6b3d5988fc814e05a40b438589223026b85              526 main/binary-amd64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-arm64/Packages
  a0fddd5458378c1bf3c10dd2f5c060d1347741ed               20 main/binary-arm64/Packages.gz
 SHA256:
- fb222101ccc37a7c13f8dbbb48b646cbca839662f42f6d8558decef2d02633ca              750 main/binary-amd64/Packages
- c60eb9f7a73326a05fa24e4ab9da50ed3efa05626253fb040ca12f4e276d4dec              528 main/binary-amd64/Packages.gz
+ d79780e731019d9fc1f3e34c77734137a8a4e57471405aa74805a8c19100311e              750 main/binary-amd64/Packages
+ f247fc591d93c4775b00c70cb80571ae4ca1662a8243f2bb121a213048c4cb18              526 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-arm64/Packages
  f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec               20 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAEBCAA5FiEEfIBUJPI0ijhlQ/TRX1S0uQAjY1MFAmsAvmIbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMCwzAAoJEF9UtLkAI2NTIrAP/RUrkpFhsQvJUsv6KwiK
-klrRx8aOc4H2e4yZnrQ9UO1rDjp8Y5rVhe8dbRe6bZ9NRje0aLUNfY0QaaqLjUTO
-DlqU6pU7RMqSXlpOukOboX7L5DTyOzppe48RnNaz1nSrrovN6plz5hwZeo3Kmw6D
-xOdCcR7F/mqrHoGPp5MgBVvWwxM28KCqDH5rBIL28bIBsVZmzBzD1rN4HHOdrMZ8
-k7sNhiLobJAMYI8FywiOTsQdRYdE/Y7vq9SzOybKIgba2MvYBGrEMYf3xKIN1XYT
-uCdpnncWQG8UvrIR8dJgu535KP+EwPgKfi3Nm77iMjw+7LJgqhPIfHQiUixEKiB/
-gbM47gOl6+DMTcylzv6el1C60gFtoqQU8M5bo2q7XWwcWUAVk8YaPfRsg9GtHN7F
-0XtAfNZzkHuRc+Nedeosvr9zZEqaNUOR0DdRBeNQSl7JM0vH8CdxPzf9FOk7V7UH
-GGgI2vm37QgJtlCvWDrcbetGfWId71CxcobynbY7ZwE2+SRZUqPeHoLr1I9HSTUU
-/l38VvQA+l90mki32fA/BkiQMoCHhITb0qFfo21rFJ7A5gPwTHpknijCywMc+TrK
-e5FQghvR7mqrN0XjFcgmV6NXpsJj/y468YQN2+UzIpsIOpfVk705dqmMG/HSmm7C
-+SL9dCsLPN6jxNjNF9hT4bgv
-=VAlS
+iQJPBAEBCAA5FiEEfIBUJPI0ijhlQ/TRX1S0uQAjY1MFAmsB5dobFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMCwzAAoJEF9UtLkAI2NT2+UP/ii7JcaN7cgtka25hnos
+cTQ2+E21vXUXGxwuRSvz2gCQ2iZLunUN6P7ZFeywFM/e42Z/XCxCy37JO0CsjfqJ
+7ACOM+HhPT9GD7d8Cn3smt4QsJ4hme8DOujCdZ2PBC1E5rqerzwkLYilFUe3xzf2
++7BezFst3v0N6+jdM7Fax3DJUqfjnXSHluMj90JBu5IIN/YWNxXKC7L4lBivqOST
+DU/d8plvIQFG5Wk85OTlsHvW84HPENQWBzWJXKrvGpx67FsjXOXxypRyMh/VbN9K
+ABWkU3Nk4kNi+DVEGjtqU8C1bzSg7oRXvy2GPoeWV3+lq09ebFMdNAdKK+NhMT9Z
+M+wP6I0ZqyOc3Xh3tkKPrpqZ73xJm4ttA5fTCPra45Y9lQNt76oKGCnoEZ8qaPIe
+53tBqA3HiL52YFU0zrdwt0ImBRxpjcrrXqCdGkdgXX3AOziNFMm6SNjwzLzhA79L
+Wuvh6NEjYY9+kdGyA/TveoGC/q/1lVadc4dQ+7I2K6mJzrOOON1F0OCzduqIldBd
+XTko5S6azr9rFwIPnZwinTzozRl7xixFPKOMg4Ah4AjIEvEna2GsLyJhyUCPTLha
+ihA3MdWnp0gEg0W5SyapWnR4QdvRZ7nrwACFvOyqADFbwdmo+fW9HmYy55bo/aNp
+Tsc81FbCB2QQI+Yx8a0Oj7ZD
+=3RB2
 -----END PGP SIGNATURE-----

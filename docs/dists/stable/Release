@@ -5,19 +5,19 @@ Codename: stable
 Architectures: amd64 arm64
 Components: main
 Description: Convene, the desktop floor
-Date: Fri, 20 Nov 2026 21:40:50 +0000
+Date: Sat, 21 Nov 2026 18:41:30 +0000
 MD5Sum:
- ab3ae5e02a8edf1b3d755da18a61b25b              750 main/binary-amd64/Packages
- ebb6908a3b7251219e91f147a282f2c7              528 main/binary-amd64/Packages.gz
+ 057f3ea1c160800ee9639bbb9499f476              750 main/binary-amd64/Packages
+ abfb0baafef31a578679c0a62b712065              526 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-arm64/Packages
  4a4dd3598707603b3f76a2378a4504aa               20 main/binary-arm64/Packages.gz
 SHA1:
- 5e5669d0012b8d3f1ae1f6c86c26a88eaffa86ca              750 main/binary-amd64/Packages
- 8a432d160ef9c10875f3d2f83725d5fdb1b93e3a              528 main/binary-amd64/Packages.gz
+ c65476806d023cd2d6ff66b19d05ab4acfe8474c              750 main/binary-amd64/Packages
+ 606cc6b3d5988fc814e05a40b438589223026b85              526 main/binary-amd64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-arm64/Packages
  a0fddd5458378c1bf3c10dd2f5c060d1347741ed               20 main/binary-arm64/Packages.gz
 SHA256:
- fb222101ccc37a7c13f8dbbb48b646cbca839662f42f6d8558decef2d02633ca              750 main/binary-amd64/Packages
- c60eb9f7a73326a05fa24e4ab9da50ed3efa05626253fb040ca12f4e276d4dec              528 main/binary-amd64/Packages.gz
+ d79780e731019d9fc1f3e34c77734137a8a4e57471405aa74805a8c19100311e              750 main/binary-amd64/Packages
+ f247fc591d93c4775b00c70cb80571ae4ca1662a8243f2bb121a213048c4cb18              526 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-arm64/Packages
  f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec               20 main/binary-arm64/Packages.gz
