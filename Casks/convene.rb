@@ -7,8 +7,8 @@ cask "convene" do
   # declared after it rendered "macos-.zip" (F633).
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.7.7"
-  sha256 arm: "cabb672d11cd5cfd8f966e08d5b75c82a455ca0c51a8c3852c81fca0a72832d2", intel: "4d60e3720e0f501d20db1f284b242367ab1ae535003c52454a14e182b5a27a48"
+  version "0.7.8"
+  sha256 arm: "832e8de1ce06a75dd4a099c2957599dc655dcc544a56f7c30f1994a9f56d2cb5", intel: "1d580e3bfe238fa54e795288787bbf36e85728b628fcc03ef8b0fb63fb5a574e"
 
   url "https://github.com/kopilati/convene-releases/releases/download/v#{version}/Convene-#{version}-macos-#{arch}.zip"
   name "Convene"
